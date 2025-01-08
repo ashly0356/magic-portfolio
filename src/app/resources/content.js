@@ -48,7 +48,7 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: <>Graphic Designer and UI/UX Developer</>,
-    subline: <>I am Ashly A. Hernandez a Graphic Designer and <InlineCode> UI/UX Developer</InlineCode>, I specialize in crafting intuitive and user-centered experiences. In my personal pursuits,<br/> I engage in independent projects to further refine my skills and explore creative avenues.</>
+    subline: <>I am Ashly A. Hernandez a Graphic Designer and <InlineCode> UI/UX Developer</InlineCode>, I specialize in crafting intuitive and user-centered experiences. In my personal pursuits,I engage in independent projects to further refine my skills and explore creative avenues.</>
 }
 
 const about = {
@@ -76,12 +76,11 @@ const about = {
         title: 'Work Experience',
         experiences: [
             {
-                company: 'FLY',
-                timeframe: '2022 - Present',
-                role: 'Senior Design Engineer',
+                company: 'Freelance',
+                timeframe: '2020 - Present',
+                role: 'Grahpic Designing & UI/UX',
                 achievements: [
-                    <>Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.</>,
-                    <>Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.</>
+                    <>As a freelance UI/UX designer, website developer, and graphic designer, I deliver high-quality solutions tailored to client objectives.</>,
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
                     {
@@ -93,15 +92,31 @@ const about = {
                 ]
             },
             {
-                company: 'Creativ3',
-                timeframe: '2018 - 2022',
-                role: 'Lead Designer',
+                company: 'The Lewis College',
+                timeframe: '2021 - 2022',
+                role: 'Saso Staff',
                 achievements: [
-                    <>Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.</>,
-                    <>Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.</>
+                    <>I craft engaging visual content, including posters and banners, for the SASO office to effectively communicate messages and contribute to a vibrant campus culture.</>,
+                ],
+                images: [  {
+                    src: '/images/projects/project-01/cover-01.jpg',
+                    alt: 'Once UI Project',
+                    width: 16,
+                    height: 9
+                } ]
+            },
+
+            {
+                company: 'The Lewis College',
+                timeframe: '2023 - 2024',
+                role: 'CCS Faculty',
+                achievements: [
+                    <>I served as an Instructor in the Computer Studies Department, where my teaching load consistently surpassed the standard unit allocation.</>,
                 ],
                 images: [ ]
             }
+
+            
         ]
     },
     studies: {
@@ -109,12 +124,13 @@ const about = {
         title: 'Studies',
         institutions: [
             {
-                name: 'University of Jakarta',
-                description: <>Studied software engineering.</>,
+                name: 'The Lewis College',
+                description: <>BS IN INFORMATION TECHNOLOGY - 2022</>,
+
             },
             {
-                name: 'Build the Future',
-                description: <>Studied online marketing and personal branding.</>,
+                name: 'MFI POLYTECHNIC INSTITUTE',
+                description: <>TVL Programming - 2018</>,
             }
         ]
     },
@@ -142,8 +158,21 @@ const about = {
                 ]
             },
             {
-                title: 'Next.js',
-                description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+                title: 'Alpine.js, Tailwind & Wordpress',
+                description: <>Building next gen apps with Tailwind + Alpine.js and I use wordpress.</>,
+                // optional: leave the array empty if you don't want to display images
+                images: [
+                    {
+                        src: '/images/projects/project-01/cover-04.jpg',
+                        alt: 'Project image',
+                        width: 16,
+                        height: 9
+                    },
+                ]
+            },
+            {
+                title: 'Graphic Designing',
+                description: <>Engage in the professional design and production of a high-quality poster, banner, or collection of mockups adhering to the highest aesthetic and functional standards.</>,
                 // optional: leave the array empty if you don't want to display images
                 images: [
                     {
@@ -154,6 +183,8 @@ const about = {
                     },
                 ]
             }
+        
+
         ]
     }
 }
