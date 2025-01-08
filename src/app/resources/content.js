@@ -159,7 +159,7 @@ const about = {
             },
             {
                 title: 'Alpine.js, Tailwind & Wordpress',
-                description: <>Building next gen apps with Tailwind + Alpine.js and I use wordpress.</>,
+                description: <>Building next gen apps with Tailwind + Alpine.js and .</>,
                 // optional: leave the array empty if you don't want to display images
                 images: [
                     {
