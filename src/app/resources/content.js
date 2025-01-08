@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Selene',
-    lastName:  'Yu',
+    firstName: 'Ashly',
+    lastName:  'Hernandez',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
-    role:      'Design Engineer',
+    role:      'Graphic Designer | UI/UX Developer',
     avatar:    '/images/avatar.jpg',
-    location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+    // location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ['English', 'Tagalog']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
@@ -21,11 +21,11 @@ const newsletter = {
 const social = [
     // Links are automatically displayed.
     // Import new icons in /once-ui/icons.ts
-    {
-        name: 'GitHub',
-        icon: 'github',
-        link: 'https://github.com/once-ui-system/nextjs-starter',
-    },
+    // {
+    //     name: 'GitHub',
+    //     icon: 'github',
+    //     link: 'https://github.com/once-ui-system/nextjs-starter',
+    // },
     {
         name: 'LinkedIn',
         icon: 'linkedin',
@@ -39,7 +39,7 @@ const social = [
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:example@gmail.com',
+        link: 'ashlyhernandez0356@gmail.com',
     },
 ]
 
@@ -47,8 +47,8 @@ const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    headline: <>Graphic Designer and UI/UX Developer</>,
+    subline: <>As a Graphic Designer and <InlineCode> UI/UX Developer</InlineCode>, I specialize in crafting intuitive and user-centered experiences. In my personal pursuits,<br/> I engage in independent projects to further refine my skills and explore creative avenues.</>
 }
 
 const about = {
@@ -69,7 +69,7 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>Ashly is seeking a challenging UI/UX and graphic design position where he can leverage his creative talents and design expertise to develop intuitive and engaging user experiences that contribute significantly to the organization's success.</>
     },
     work: {
         display: true, // set to false to hide this section
