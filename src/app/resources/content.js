@@ -13,8 +13,8 @@ const person = {
 }
 
 const newsletter = {
-    display: true,
-    title: <>Subscribe to {person.firstName}'s Newsletter</>,
+    display: false,
+    title: <>Message {person.firstName} Now</>,
     description: <>I occasionally write about design, technology, and share thoughts on the intersection of creativity.</>
 }
 
@@ -27,20 +27,22 @@ const social = [
     //     link: 'https://github.com/once-ui-system/nextjs-starter',
     // },
     {
-        name: 'LinkedIn',
-        icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        name: '+63 9496178609',
+        icon: '',
+        link: '#',
     },
     {
         name: 'X',
         icon: 'x',
         link: '',
     },
+
     {
-        name: 'Email',
-        icon: 'email',
-        link: 'ashlyhernandez0356@gmail.com',
+        name: 'Ashlyhernandez0356@gmail.com',
+        icon: '',
+        link: '#',
     },
+
 ]
 
 const home = {
@@ -48,6 +50,7 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: <>Graphic Designer and UI/UX Developer</>,
+    
     subline: <>I am Ashly A. Hernandez a Graphic Designer and <InlineCode> UI/UX Developer</InlineCode>, I specialize in crafting intuitive and user-centered experiences. In my personal pursuits,I engage in independent projects to further refine my skills and explore creative avenues.</>
 }
 
@@ -64,7 +67,7 @@ const about = {
     },
     calendar: {
         display: true,
-        link: 'https://cal.com'
+        link: '#'
     },
     intro: {
         display: true,
