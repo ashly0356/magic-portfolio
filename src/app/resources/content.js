@@ -48,7 +48,7 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Portfolio website showcasing my work as a ${person.role}`,
     headline: <>Graphic Designer and UI/UX Developer</>,
-    subline: <>As a Graphic Designer and <InlineCode> UI/UX Developer</InlineCode>, I specialize in crafting intuitive and user-centered experiences. In my personal pursuits,<br/> I engage in independent projects to further refine my skills and explore creative avenues.</>
+    subline: <>I am Ashly A. Hernandez a Graphic Designer and <InlineCode> UI/UX Developer</InlineCode>, I specialize in crafting intuitive and user-centered experiences. In my personal pursuits,<br/> I engage in independent projects to further refine my skills and explore creative avenues.</>
 }
 
 const about = {
