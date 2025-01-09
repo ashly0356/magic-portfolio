@@ -86,12 +86,18 @@ const about = {
                     <>As a freelance UI/UX designer, website developer, and graphic designer, I deliver high-quality solutions tailored to client objectives.</>,
                 ],
                 images: [ // optional: leave the array empty if you don't want to display images
-                    {
-                        src: '/images/projects/project-01/cover-01.jpg',
-                        alt: 'Once UI Project',
-                        width: 16,
-                        height: 9
-                    }
+                    // {
+                    //     src: '/images/projects/project-01/cover-01.jpg',
+                    //     alt: 'Once UI Project',
+                    //     width: 16,
+                    //     height: 9
+                    // },
+                    // {
+                    //     src: '/images/projects/project-01/cover-05.jpg',
+                    //     alt: 'Once UI Project',
+                    //     width: 16,
+                    //     height: 9
+                    // } 
                 ]
             },
             {
@@ -101,12 +107,14 @@ const about = {
                 achievements: [
                     <>I craft engaging visual content, including posters and banners, for the SASO office to effectively communicate messages and contribute to a vibrant campus culture.</>,
                 ],
-                images: [  {
-                    src: '/images/projects/project-01/cover-01.jpg',
-                    alt: 'Once UI Project',
-                    width: 16,
-                    height: 9
-                } ]
+                images: [  
+                //     {
+                //     src: '/images/projects/project-01/TLC.jpg',
+                //     alt: 'Once UI Project',
+                //     width: 16,
+                //     height: 9
+                // }
+             ]
             },
 
             {
@@ -147,13 +155,13 @@ const about = {
                 // optional: leave the array empty if you don't want to display images
                 images: [
                     {
-                        src: '/images/projects/project-01/cover-02.jpg',
+                        src: '/images/projects/project-01/cover-01.jpg',
                         alt: 'Project image',
                         width: 16,
                         height: 9
                     },
                     {
-                        src: '/images/projects/project-01/cover-03.jpg',
+                        src: '/images/projects/project-01/HF.jpg',
                         alt: 'Project image',
                         width: 16,
                         height: 9
@@ -166,7 +174,7 @@ const about = {
                 // optional: leave the array empty if you don't want to display images
                 images: [
                     {
-                        src: '/images/projects/project-01/cover-04.jpg',
+                        src: '/images/projects/project-01/cover-05.jpg',
                         alt: 'Project image',
                         width: 16,
                         height: 9
@@ -179,11 +187,17 @@ const about = {
                 // optional: leave the array empty if you don't want to display images
                 images: [
                     {
-                        src: '/images/projects/project-01/cover-04.jpg',
+                        src: '/images/projects/project-01/AF.jpg',
                         alt: 'Project image',
                         width: 16,
                         height: 9
                     },
+                    {
+                        src: '/images/projects/project-01/TLC.jpg',
+                        alt: 'Project image',
+                        width: 16,
+                        height: 9
+                    }
                 ]
             }
         
