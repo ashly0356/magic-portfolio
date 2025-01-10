@@ -283,21 +283,7 @@ const gallery = {
             alt: 'image',
             orientation: 'vertcal'
         },
-        // { 
-        //     src: '/images/gallery/img-12.jpg', 
-        //     alt: 'image',
-        //     orientation: 'horizontal'
-        // },
-        // { 
-        //     src: '/images/gallery/img-13.jpg', 
-        //     alt: 'image',
-        //     orientation: 'horizontal'
-        // },
-        // { 
-        //     src: '/images/gallery/img-14.jpg', 
-        //     alt: 'image',
-        //     orientation: 'horizontal'
-        // },
+
     ]
 }
 
