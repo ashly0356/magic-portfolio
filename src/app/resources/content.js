@@ -241,7 +241,7 @@ const gallery = {
         { 
             src: '/images/gallery/img-03.jpg', 
             alt: 'image',
-            orientation: 'vertical'
+            orientation: 'horizontal'
         },
         { 
             src: '/images/gallery/img-04.jpg', 
@@ -256,7 +256,7 @@ const gallery = {
         { 
             src: '/images/gallery/img-06.jpg', 
             alt: 'image',
-            orientation: 'vertical'
+            orientation: 'horizontal'
         },
         { 
             src: '/images/gallery/img-07.jpg', 
@@ -266,7 +266,7 @@ const gallery = {
         { 
             src: '/images/gallery/img-08.jpg', 
             alt: 'image',
-            orientation: 'vertical'
+            orientation: 'horizontal'
         },
         { 
             src: '/images/gallery/img-09.jpg', 
@@ -276,28 +276,28 @@ const gallery = {
         { 
             src: '/images/gallery/img-10.jpg', 
             alt: 'image',
-            orientation: 'horizontal'
+            orientation: 'vertcal'
         },
         { 
             src: '/images/gallery/img-11.jpg', 
             alt: 'image',
-            orientation: 'vertical'
+            orientation: 'vertcal'
         },
-        { 
-            src: '/images/gallery/img-12.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-13.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
-        { 
-            src: '/images/gallery/img-14.jpg', 
-            alt: 'image',
-            orientation: 'horizontal'
-        },
+        // { 
+        //     src: '/images/gallery/img-12.jpg', 
+        //     alt: 'image',
+        //     orientation: 'horizontal'
+        // },
+        // { 
+        //     src: '/images/gallery/img-13.jpg', 
+        //     alt: 'image',
+        //     orientation: 'horizontal'
+        // },
+        // { 
+        //     src: '/images/gallery/img-14.jpg', 
+        //     alt: 'image',
+        //     orientation: 'horizontal'
+        // },
     ]
 }
 
